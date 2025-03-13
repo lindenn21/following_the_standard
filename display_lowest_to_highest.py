@@ -8,7 +8,7 @@ def smallest_highest():
         num = float(input("Enter a number: "))
         number.append(num)
 
-        sort(number)
+        number.sort()
         print(number)
 
 smallest_highest()
