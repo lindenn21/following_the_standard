@@ -1,29 +1,12 @@
 # Ask user to input 10 numbers
-# Print numbers that do not have a duplicate
+# Print first entries only
 
-def unique_num():
-    number = [ ]
+unique_num = []
 
-    for i in range(10):
-        num = int(input(f"Enter number: "))
-        number.append(num)
+for i in range(10):
+    num = float(input("Add number"))
+    if num not in unique_num:
+        unique_num.append(num)
+print(unique_num)
 
-
-unique_num()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Prog01: Create a program that ask user to input 10 numbers. Display all numbers that don't have duplicate.
+# Prog02: Create a program that ask user to input 10 numbers. Display all numbers. For numbers with duplicate, display only the first entry.
