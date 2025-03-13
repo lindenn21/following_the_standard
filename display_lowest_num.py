@@ -10,7 +10,7 @@ def small():
             number.append(num)
 
             smallest = min(number)
-            print(smallest)
+            print(f"Smallest number: {smallest}")
         except ValueError:
             print("Invalid")
             break
