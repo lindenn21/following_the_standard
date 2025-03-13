@@ -8,5 +8,8 @@ for i in range(10):
     number.append(num)
 
     if number.count(num) > 1:
+        number.remove(num)
+
+print(number)
 
 # Prog01: Create a program that ask user to input 10 numbers. Display all numbers that don't have duplicate.
