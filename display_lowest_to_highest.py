@@ -5,11 +5,13 @@ def smallest_highest():
     number = []
 
     while True:
-        num = float(input("Enter a number: "))
-        number.append(num)
-
-        number.sort()
-        print(number)
+        try:
+            num = float(input("Enter a number: "))
+            number.append(num)
+            number.sort()
+            print(number)
+        except ValueError:
+            break
 
 smallest_highest()
 
